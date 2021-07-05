@@ -4,7 +4,8 @@ using System.Text;
 
 namespace FLowerShop
 {
-    public class Flower {
+    public class Flower
+    {
         public string commonName { get; }
         public string botanical { get; }
         public int zone { get; }
@@ -12,7 +13,7 @@ namespace FLowerShop
         public decimal price { get; set; }
         public bool availabilty { get; set; }
         public int quantity { get; set; }
-        public Flower(string commonName, string botanical, int zone, string light, decimal price )
+        public Flower(string commonName, string botanical, int zone, string light, decimal price)
         {
             this.commonName = commonName;
             this.botanical = botanical;
