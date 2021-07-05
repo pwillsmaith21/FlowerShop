@@ -1,0 +1,13 @@
+C:\Users\HP\source\repos\FLowerShop\FLowerShop\bin\Debug\netcoreapp3.1\FLowerShop.exe
+C:\Users\HP\source\repos\FLowerShop\FLowerShop\bin\Debug\netcoreapp3.1\FLowerShop.deps.json
+C:\Users\HP\source\repos\FLowerShop\FLowerShop\bin\Debug\netcoreapp3.1\FLowerShop.runtimeconfig.json
+C:\Users\HP\source\repos\FLowerShop\FLowerShop\bin\Debug\netcoreapp3.1\FLowerShop.runtimeconfig.dev.json
+C:\Users\HP\source\repos\FLowerShop\FLowerShop\bin\Debug\netcoreapp3.1\FLowerShop.dll
+C:\Users\HP\source\repos\FLowerShop\FLowerShop\bin\Debug\netcoreapp3.1\FLowerShop.pdb
+C:\Users\HP\source\repos\FLowerShop\FLowerShop\obj\Debug\netcoreapp3.1\FLowerShop.csproj.AssemblyReference.cache
+C:\Users\HP\source\repos\FLowerShop\FLowerShop\obj\Debug\netcoreapp3.1\FLowerShop.AssemblyInfoInputs.cache
+C:\Users\HP\source\repos\FLowerShop\FLowerShop\obj\Debug\netcoreapp3.1\FLowerShop.AssemblyInfo.cs
+C:\Users\HP\source\repos\FLowerShop\FLowerShop\obj\Debug\netcoreapp3.1\FLowerShop.csproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\FLowerShop\FLowerShop\obj\Debug\netcoreapp3.1\FLowerShop.dll
+C:\Users\HP\source\repos\FLowerShop\FLowerShop\obj\Debug\netcoreapp3.1\FLowerShop.pdb
+C:\Users\HP\source\repos\FLowerShop\FLowerShop\obj\Debug\netcoreapp3.1\FLowerShop.genruntimeconfig.cache
