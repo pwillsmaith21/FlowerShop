@@ -9,7 +9,8 @@ namespace FLowerShop
 {
     public class FlowerCatalog
     {
-        protected List<Flower> flowerList = new List<Flower>();
+        public  List<Flower> flowerList = new List<Flower>();
+       
         public void loadDataFromXml()
         {
             XElement xmlFile = XElement.Load(@"http://www-db.deis.unibo.it/courses/TW/DOCS/w3schools/xml/plant_catalog.xml");
@@ -38,9 +39,10 @@ namespace FLowerShop
         }
         public void printListofItem()
         {
-            for ( int i = 0; i < flowerList.Count(); i++)
+            for ( int i = 0 ,  y =1; i < flowerList.Count(); i++, y++)
             {
-                Console.WriteLine("FLower Location:" + i + 1 + flowerList.ElementAt(i));
+                Console.WriteLine("FLower Location:" + y);
+                Console.WriteLine(  flowerList.ElementAt(i));
             }
             //flowerList.ForEach(flower => Console.WriteLine(flower.ToString()));
         }
@@ -49,7 +51,7 @@ namespace FLowerShop
             location += 1;
             if( location > 0 && location< flowerList.Count)
             {
-                return flowerList.ElementAt(1);
+                return (flowerList.ElementAt(location));
 
             }
             else

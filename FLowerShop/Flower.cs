@@ -1,10 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics.CodeAnalysis;
 using System.Text;
 
 namespace FLowerShop
 {
-    public class Flower
+    public class Flower : IComparable<Flower>
     {
         public string commonName { get; }
         public string botanical { get; }
@@ -26,19 +27,30 @@ namespace FLowerShop
         }
         public override string ToString()
         {
-            
-       return ( $"CommonName: {commonName}\n" +
-                $"Botanical: {botanical}\n" +
-                $"Zone: {zone}\n" +
-                $"Light: {light}\n" +
-                $"Price: {price}\n" +
-                $"Available: {availabilty}\n" +
-                $"Quantity: {quantity}\n");
+
+            return ($"CommonName: {commonName}\n" +
+                     $"Botanical: {botanical}\n" +
+                     $"Zone: {zone}\n" +
+                     $"Light: {light}\n" +
+                     $"Price: {price}\n" +
+                     $"Available: {availabilty}\n" +
+                     $"Quantity: {quantity}\n");
         }
 
-
-
-
-
+        public int CompareTo( Flower other)
+        {
+            if (this.commonName == other.commonName &&
+              this.botanical == other.botanical &&
+              this.zone == other.zone &&
+              this.light == other.light &&
+              this.price == other.price)
+            {
+                return 0;
+            }
+            else
+            {
+                return -1;
+            }
+        }
     }
-}
+    }

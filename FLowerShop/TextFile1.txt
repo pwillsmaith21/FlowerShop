@@ -1,8 +1,8 @@
 ﻿FLower shop outline 
-retrieve data from xml file 
-parse data with xml to linq
-flower class 
-save data to flower class
-catalog class to hold data
+retrieve data from xml file ✅
+parse data with xml to linq ✅
+flower class ✅
+save data to flower class ✅
+catalog class to hold data ✅
 cart to similuate checkout
 
